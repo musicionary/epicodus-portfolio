@@ -32,41 +32,55 @@ ol li {
   top: 0;
   left: 0;
   transition: width 0.5s;
-  z-index: 999;
+  z-index: 900;
 }
 
 #openmenu:hover {
-  width: 11%;
+  width: 15%;
   transition: width 0.5s;
   cursor: pointer;
 }
 
 .overlay {
-  /* Height & width depends on how you want to reveal the overlay (see JS below) */
   height: 100%;
   width: 0;
   position: fixed;
-  /* Stay in place */
-  z-index: 1;
-  /* Sit on top */
+  z-index: 999;
   left: 0;
   top: 0;
-  background-color: rgb(0, 0, 0);
-  /* Black fallback color */
   background-color: rgba(0, 0, 0, 0.9);
-  /* Black w/opacity */
   overflow-x: hidden;
-  /* Disable horizontal scroll */
   transition: 0.5s;
-  /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Nav list */
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Nav links */
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 3em;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f9f9f9;
 }
 
 .closebtn {
   position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px !important;
-  /* Override the font-size specified earlier (36px) for all navigation links */
+  top: 10px;
+  right: 40px;
 }
 
 
@@ -201,6 +215,14 @@ footer {
 /*=================================
   MEDIA QUERIES
 ==================================*/
+@media screen and (max-width: 800px) {
+  #openmenu {
+    width: 20%;
+  }
+  #openmenu:hover {
+    width: 22%;
+  }
+}
 @media (min-width: 600px) {
   #about {
     line-height: 1.6em;
