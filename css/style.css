@@ -79,12 +79,10 @@ body {
 }
 
 #portfolio h2 {
-  text-align: center;
   font-size: 2em;
 }
 
-#portfolio h3 {
-  text-align: center;
+#portfolio p {
   font-weight: 300;
 }
 
@@ -123,6 +121,17 @@ body {
 #contact a:hover .social {
   display: inline;
 }
+
+
+/*=================================
+  FOOTER
+==================================*/
+footer {
+  background: #2a2730;
+  height: 50px;
+}
+
+
 
 /*=================================
   MEDIA QUERIES
