@@ -79,6 +79,31 @@ body {
 #portfolio h3 {
   text-align: center;
 }
+
 /*=================================
   CONTACT
 ==================================*/
+
+#contact {
+  background: #34495E;
+  height: 100vh;
+  padding: 2% 2% 2% 2%;
+  font-size: 1.5em;
+}
+
+#contact h2, #contact h3 {
+  text-align: center;
+}
+
+#contact a {
+  color: #f9f9f9;
+  text-align: center;
+}
+
+#contact span {
+  display: none;
+}
+
+#contact a:hover span {
+  display: inline;
+}
