@@ -1,4 +1,4 @@
-  # EPICODUS PORTFOLIO
+# EPICODUS PORTFOLIO
 
 Static, one page developer portfolio for Chip Carnes
 
