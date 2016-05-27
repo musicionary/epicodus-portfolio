@@ -22,9 +22,9 @@ ol li {
 
 #openmenu {
   font-size: 20pt;
-  background-color: #68BDCA;
-  border-bottom: solid 2px #f9f9f9;
-  border-right: solid 2px #f9f9f9;
+  background-color: #2D6E8B;
+  border-bottom: solid 2px #55A6C1;
+  border-right: solid 2px #55A6C1;
   position: fixed;
   padding: 2px;
   width: 10%;
@@ -39,6 +39,34 @@ ol li {
   width: 11%;
   transition: width 0.5s;
   cursor: pointer;
+}
+
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */
+  height: 100%;
+  width: 0;
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: rgb(0, 0, 0);
+  /* Black fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/opacity */
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+.closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px !important;
+  /* Override the font-size specified earlier (36px) for all navigation links */
 }
 
 
