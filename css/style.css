@@ -3,6 +3,7 @@
 ==================================*/
 body {
   color: #f9f9f9;
+  font-family: 'Lato', sans-serif;
 }
 
 
@@ -11,7 +12,6 @@ body {
 ==================================*/
 
 #hero {
-  font-family: 'Lato', sans-serif;
   color: #f9f9f9;
   background: url("https://images.unsplash.com/photo-1460036521480-ff49c08c2781?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=b24fa7588a4b95f6301bc6d60908db23");
   background-repeat: no-repeat;
@@ -38,7 +38,24 @@ body {
 /*=================================
   ABOUT
 ==================================*/
+#about {
+  background: #1ABC9C;
+  height: 100vh;
+  padding: 5% 5% 5% 5%;
+  line-height: 40px;
+  font-size: 1.5em;
+}
 
+#email {
+  background-color: #26816E;
+  padding: 2% 2% 2% 2%;
+  border-radius: 40px;
+  transition: box-shadow 0.5s, color 0.8s, background-color 0.5s;
+}
+
+#email a {
+  color: #f9f9f9;
+}
 /*=================================
   PORTFOLIO
 ==================================*/
