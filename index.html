@@ -63,22 +63,36 @@
 
     <!-- portfolio -->
     <div id="portfolio">
-      <div class="container">
-        <div class="row">
-          <h2>Portfolio</h2>
-          <h3>Here you'll find some projects I've worked on! Click on a project to see a demo of it.</h3>
-          <div class="col-md-6 col-md-offset-3">
-            <!-- Dev Match Website-->
-            <a target="_blank" href="https://intense-reef-44511.herokuapp.com/"><img class="img-responsive thumbnail" src="img/dev-match.png"></a>
-            <!-- Cupcake Shop -->
-            <a target="_blank" href="https://musicionary.github.io/cupcake-shop"><img class="img-responsive thumbnail" src="img/dev-match.png"></a>
-            <!-- Island Resort website-->
-            <a target="_blank" href="https://musicionary.github.io/island-resort"><img class="img-responsive thumbnail" src="img/island-resort-webpage.png"></a>
+      <h2>Portfolio</h2>
+      <h3>Here you'll find some projects I've worked on! Click on a project to see a demo of it.</h3>
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
 
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <!-- dev match -->
+          <div class="item active">
+            <a target="_blank" href="https://intense-reef-44511.herokuapp.com/"><img class="img-responsive thumbnail" src="img/dev-match.png"></a>
+          </div>
+          <!-- cupcake shop -->
+          <div class="item">
+            <a target="_blank" href="https://musicionary.github.io/cupcake-shop"><img class="img-responsive thumbnail" src="img/dev-match.png"></a>
+          </div>
+          <!-- island resort -->
+          <div class="item">
+            <a target="_blank" href="https://musicionary.github.io/island-resort"><img class="img-responsive thumbnail" src="img/island-resort-webpage.png"></a>
           </div>
         </div>
       </div>
     </div>
+
+
+    <!-- contact me -->
 
     <!-- javascript links -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
