@@ -64,7 +64,21 @@ body {
 /*=================================
   PORTFOLIO
 ==================================*/
+#portfolio {
+  background: #2F2F2F;
+  height: 100vh;
+  padding: 5% 5% 5% 5%;
+  font-size: 1.5em;
+}
 
+#portfolio h2 {
+  text-align: center;
+  font-size: 2em;
+}
+
+#portfolio h3 {
+  text-align: center;
+}
 /*=================================
   CONTACT
 ==================================*/
