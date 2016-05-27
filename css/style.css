@@ -17,6 +17,33 @@ ol li {
 
 
 /*=================================
+  NAV
+==================================*/
+
+#openmenu {
+  font-size: 20pt;
+  background-color: #68BDCA;
+  border-bottom: solid 2px #f9f9f9;
+  border-right: solid 2px #f9f9f9;
+  position: fixed;
+  padding: 2px;
+  width: 10%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  transition: width 0.5s;
+  z-index: 999;
+}
+
+#openmenu:hover {
+  width: 11%;
+  transition: width 0.5s;
+  cursor: pointer;
+}
+
+
+
+/*=================================
   HERO
 ==================================*/
 
