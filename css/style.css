@@ -46,6 +46,11 @@ body {
   font-size: 1.5em;
 }
 
+#about h2 {
+  text-align: center;
+  font-size: 2em;
+}
+
 #email {
   background-color: #26816E;
   padding: 2% 2% 2% 2%;
