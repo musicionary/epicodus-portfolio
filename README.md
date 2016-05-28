@@ -2,7 +2,7 @@
 
 Static, one page developer portfolio for Chip Carnes
 
-## Installation
+## Program Setup
 
 Clone this repository.
 
@@ -10,6 +10,9 @@ Clone this repository.
 
 Open index.html in web browser.
 Check out my projects!
+
+Or you can visit the page at:
+musicionary.github.io/epicodus-portfolio
 
 ## Contributing
 
