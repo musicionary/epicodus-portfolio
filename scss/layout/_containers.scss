@@ -1,0 +1,90 @@
+/*=================================
+  ABOUT
+==================================*/
+#about {
+  background: #1ABC9C;
+  height: 130vh;
+  padding: 2% 2% 2% 2%;
+  line-height: 110%;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+/*#about .row {
+  max-height: 800px;
+}*/
+
+#about h2 {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+#email {
+  background-color: #26816E;
+  padding: 2% 2% 2% 2%;
+  border-radius: 40px;
+  transition: box-shadow 0.5s, color 0.8s, background-color 0.5s;
+}
+
+#email a {
+  padding: 2%;
+  color: #f9f9f9;
+  text-decoration: none;
+}
+
+
+/*=================================
+  PORTFOLIO
+==================================*/
+#portfolio {
+  background: #2F2F2F;
+  height: 80vh;
+  padding: 1%;
+  font-size: 1.5em;
+}
+
+#portfolio h2 {
+  font-size: 2em;
+}
+
+#portfolio p {
+  font-weight: 300;
+}
+
+
+/*=================================
+  CONTACT
+==================================*/
+
+#contact {
+  background: #34495E;
+  height: 100vh;
+  padding: 2% 2% 2% 2%;
+  font-size: 1.5em;
+}
+
+#contact h2, #contact h3 {
+  font-weight: 300;
+}
+
+#contact h2 {
+  font-size: 2em;
+}
+
+#contact a {
+  color: #f9f9f9;
+  text-align: center;
+}
+
+#contact .social {
+  display: none;
+}
+
+#contact a:hover .social {
+  display: inline;
+}
+
+form {
+  margin-top: 10%;
+}

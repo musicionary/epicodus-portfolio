@@ -1,0 +1,32 @@
+//============================================
+// Global Imports
+//============================================
+@import 'base/index';
+@import 'layout/index';
+@import 'components/index';
+
+
+
+
+/*=================================
+  MEDIA QUERIES
+==================================*/
+@media screen and (max-width: 800px) {
+  #openmenu {
+    width: 20%;
+  }
+  #openmenu:hover {
+    width: 22%;
+  }
+}
+@media (min-width: 600px) {
+  #about {
+    line-height: 1.6em;
+  }
+}
+
+@media (min-width: 1000px) {
+  #about, #portfolio {
+    height: 100vh;
+  }
+}

@@ -1,0 +1,16 @@
+/*=================================
+  BASE STYLES - what elements look like by default
+==================================*/
+body {
+  color: #f9f9f9;
+  font-family: 'Lato', sans-serif;
+  padding-bottom: 50px;
+}
+
+ol {
+  list-style: none;
+}
+
+ol li {
+  display: inline-block;
+}

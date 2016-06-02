@@ -1,0 +1,66 @@
+/*=================================
+  NAV
+==================================*/
+
+#openmenu {
+  font-size: 20pt;
+  background-color: #2D6E8B;
+  border-bottom: solid 2px #55A6C1;
+  border-right: solid 2px #55A6C1;
+  position: fixed;
+  padding: 2px;
+  width: 10%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  transition: width 0.5s;
+  z-index: 900;
+}
+
+#openmenu:hover {
+  width: 15%;
+  transition: width 0.5s;
+  cursor: pointer;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+/* Nav list */
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Nav links */
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 3em;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f9f9f9;
+}
+
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 40px;
+}
